@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+:root {
+    --cor0: white;
+    --cor1: #5669fa;
+    --cor2: rgb(0,30,255);
+    --cor3: rgb(0,19,163);
+    --cor4: rgb(41,0,163);
+    --cor5: black;
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor3), var(--cor1));
+    min-height: 150px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.541);
+}
+
+header > h1 {
+    color: var(--cor0);
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p {
+    font-size: 1.1em;
+    color: var(--cor0);
+    text-align: center;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.199);
+}
+
+nav {
+    background-color: #0114a510;
+    padding-top: 10px;
+    
+}
+
+nav > a {
+    color: var(--cor0);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+#lis a:hover {
+    background-color: var(--cor1);
+    color: rgba(0, 0, 0, 0.616);
+}
+
+main {
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    line-height: 1.5em;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.233);
+}
+main > h1 {
+    padding-bottom: 15px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 15px;
+}
+
+main > h2 {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+main > ul > li>  a {
+    text-decoration: none;
+    color: var(--cor1);
+    line-height: 1.5em;
+    
+}
+
+footer {
+    background-image: linear-gradient(to right, #053ca1, var(--cor1));
+    padding: 8px;
+    text-align: center;
+    margin: auto;
+}
+
+footer > p > a {
+    color: var(--cor0);
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(7, 7, 48);
+}
+
